@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnStartBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Background Task" />
+
+    <Button
+        android:id="@+id/btnStartForeground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Foreground Service"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnBindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind to Service"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count: 0"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textAsyncResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AsyncTask result here"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textCoroutineResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coroutine result here"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
